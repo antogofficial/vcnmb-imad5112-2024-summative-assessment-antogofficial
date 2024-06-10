@@ -7,9 +7,23 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textViewMin"
+        android:layout_width="68dp"
+        android:layout_height="77dp"
+        android:text="Min"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.346"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
+
+    <TextView
         android:id="@+id/textViewDay"
-        android:layout_width="103dp"
-        android:layout_height="48dp"
+        android:layout_width="107dp"
+        android:layout_height="77dp"
         android:text="Day"
         android:textAlignment="center"
         android:textSize="20sp"
@@ -19,5 +33,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/textViewMax"
+        android:layout_width="68dp"
+        android:layout_height="77dp"
+        android:text="Max"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.004" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
