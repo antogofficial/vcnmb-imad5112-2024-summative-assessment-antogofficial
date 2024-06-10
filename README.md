@@ -5,6 +5,7 @@ I have created a weather app which starts on an initial page and has a button wh
 I have made use of arrays to store all the data within the weather app, to store data such as the days of the week and temperatures. ![Screenshot (11)](https://github.com/antogofficial/vcnmb-imad5112-2024-summative-assessment-antogofficial/assets/160749174/83345db6-8a04-422a-b3aa-95cdb0955e6d)
 
 I have added logging statements to my code to show my understanding of the code, and I have managed to add more arrays for the temparatures, days of the week and the weather conditions
+![Screenshot (13)](https://github.com/antogofficial/vcnmb-imad5112-2024-summative-assessment-antogofficial/assets/160749174/391976fe-89cc-46b6-9d52-b63099766a5f)
 
 
 
