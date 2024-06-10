@@ -45,7 +45,7 @@ class MainActivityStart : AppCompatActivity() {
         val textViewTemparature = findViewById<TextView>(R.id.textViewTemparature)
         Log.v("${textViewTemparature}", "Text view to show the temperature to the user for a specific day")
 
-        
+
 
 
     }
