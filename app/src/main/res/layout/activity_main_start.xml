@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.176" />
 
     <TextView
-        android:id="@+id/textViewForecast"
+        android:id="@+id/textViewDisplay"
         android:layout_width="328dp"
         android:layout_height="74dp"
         android:text="Choose the day of the forecast which you would like to view"
@@ -31,5 +31,33 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/textViewTemparature"
+        android:layout_width="183dp"
+        android:layout_height="481dp"
+        android:text="Temperature"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.934" />
+
+    <TextView
+        android:id="@+id/textViewForecast"
+        android:layout_width="184dp"
+        android:layout_height="480dp"
+        android:text="Weather Forecast"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.929"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.936" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

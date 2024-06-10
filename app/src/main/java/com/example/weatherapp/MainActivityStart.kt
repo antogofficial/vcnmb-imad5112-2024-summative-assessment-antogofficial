@@ -1,11 +1,8 @@
 package com.example.weatherapp
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.ArrayAdapter
-import android.widget.Button
 import android.widget.Spinner
 import android.widget.TextView
 
@@ -41,8 +38,13 @@ class MainActivityStart : AppCompatActivity() {
 
         val spinnerDayfTheWeek = findViewById<Spinner>(R.id.spinnerDayOfTheWeek)
         Log.v("${spinnerDayfTheWeek}", "Spinner to display the days of the week")
+        val textViewDisplay = findViewById<TextView>(R.id.textViewDisplay)
+        Log.v("${textViewDisplay}", "Text view to show the user where to select a day")
         val textViewForecast = findViewById<TextView>(R.id.textViewForecast)
-        Log.v("${textViewForecast}", "Text view to display the temparatures ")
+        Log.v("${textViewForecast}", "Text view to show the user the forecast for a selected day")
+        val textViewTemparature = findViewById<TextView>(R.id.textViewTemparature)
+        Log.v("${textViewTemparature}", "Text view to show the temperature to the user for a specific day")
+
 
     }
 }
