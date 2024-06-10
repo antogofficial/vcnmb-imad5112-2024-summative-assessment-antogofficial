@@ -1,7 +1,9 @@
 package com.example.weatherapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TableLayout
 
 class MainActivity : AppCompatActivity() {
@@ -9,10 +11,21 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val tableLayoutWeather = findViewById<TableLayout>(R.id.tableLayoutWeather)
+        val buttonStart = findViewById<Button>(R.id.buttonStart)
+        val buttonExit = findViewById<Button>(R.id.buttonExit)
+
+        buttonStart.setOnClickListener() {
+
+            val intent = Intent(this, MainActivityStart::class.java)
+
+            startActivity(intent)
+
+            buttonExit.setOnClickListener() {
+
+                finishAffinity()
 
 
-
-
+            }
+        }
     }
 }
