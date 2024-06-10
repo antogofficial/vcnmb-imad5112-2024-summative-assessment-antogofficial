@@ -3,6 +3,7 @@ package com.example.weatherapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.Spinner
@@ -41,7 +42,9 @@ class MainActivityStart : AppCompatActivity() {
         setContentView(R.layout.activity_main_start)
 
         val spinnerDayfTheWeek = findViewById<Spinner>(R.id.spinnerDayOfTheWeek)
+        Log.v("${spinnerDayfTheWeek}", "Spinner to display the days of the week")
         val textViewForecast = findViewById<TextView>(R.id.textViewForecast)
+        Log.v("${textViewForecast}", "Text view to display the temparatures ")
 
     }
 }
