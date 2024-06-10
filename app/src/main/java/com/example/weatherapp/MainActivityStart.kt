@@ -11,15 +11,15 @@ import android.widget.TextView
 
 class MainActivityStart : AppCompatActivity() {
 
-  enum class dayOfTheWeek {
-        Monday,
-    Tuesday,
-    Wednesday,
-    Thursday,
-    Friday,
-    Saturday,
-    Sunday,
-}
+    val dayOfTheWeek = arrayListOf<String>("Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",)
+
+
 
     val weatherCondition = arrayListOf<String>("Sunny",
         "Rainy",
@@ -45,6 +45,6 @@ class MainActivityStart : AppCompatActivity() {
         Log.v("${spinnerDayfTheWeek}", "Spinner to display the days of the week")
         val textViewForecast = findViewById<TextView>(R.id.textViewForecast)
         Log.v("${textViewForecast}", "Text view to display the temparatures ")
-        
+
     }
 }
