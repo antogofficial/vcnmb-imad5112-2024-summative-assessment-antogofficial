@@ -19,8 +19,6 @@ class MainActivityStart : AppCompatActivity() {
         "Saturday",
         "Sunday",)
 
-
-
     val weatherCondition = arrayListOf<String>("Sunny",
         "Rainy",
         "Partly Cloudy",
