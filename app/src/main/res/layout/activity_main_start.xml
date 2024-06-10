@@ -5,14 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".MainActivityWeather"
-    tools:ignore="MissingDefaultResource">
+    tools:context=".MainActivityStart">
 
     <TextView
         android:id="@+id/textViewGreeting"
-        android:layout_width="229dp"
-        android:layout_height="113dp"
-        android:text="Welcome to the weather app"
+        android:layout_width="217dp"
+        android:layout_height="151dp"
+        android:text="Welcome to the weather app, proceed to start!"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
@@ -20,18 +19,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.177" />
+        app:layout_constraintVertical_bias="0.198" />
 
     <Button
         android:id="@+id/buttonStart"
-        android:layout_width="173dp"
-        android:layout_height="82dp"
-        android:text="Click to begin!"
+        android:layout_width="182dp"
+        android:layout_height="95dp"
+        android:text="Click to start!"
         android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.874" />
+        app:layout_constraintVertical_bias="0.854" />
 </androidx.constraintlayout.widget.ConstraintLayout>
