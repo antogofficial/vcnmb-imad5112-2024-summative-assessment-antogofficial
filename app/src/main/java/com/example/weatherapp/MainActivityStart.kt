@@ -3,19 +3,22 @@ package com.example.weatherapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.Spinner
 import android.widget.TextView
 
 class MainActivityStart : AppCompatActivity() {
 
-    val dayOfTheWeek = arrayListOf<String>("Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday")
+  enum class dayOfTheWeek {
+        Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday,
+    Sunday,
+}
 
     val weatherCondition = arrayListOf<String>("Sunny",
         "Rainy",
@@ -39,19 +42,6 @@ class MainActivityStart : AppCompatActivity() {
 
         val spinnerDayfTheWeek = findViewById<Spinner>(R.id.spinnerDayOfTheWeek)
         val textViewForecast = findViewById<TextView>(R.id.textViewForecast)
-        val buttonReturn = findViewById<Button>(R.id.buttonReturn)
 
-            buttonReturn.setOnClickListener() {
-
-                val intent = Intent(this, MainActivity::class.java)
-                startActivity(intent)
-
-            }
-
-        spinnerDayfTheWeek.setOnClickListener() {
-
-
-
-        }
     }
 }

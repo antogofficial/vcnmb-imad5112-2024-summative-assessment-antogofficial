@@ -21,11 +21,6 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(intent)
 
-            buttonExit.setOnClickListener() {
-
-               finishAffinity()
-
-            }
         }
     }
 }
