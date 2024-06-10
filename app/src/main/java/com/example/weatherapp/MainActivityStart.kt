@@ -39,6 +39,19 @@ class MainActivityStart : AppCompatActivity() {
 
         val spinnerDayfTheWeek = findViewById<Spinner>(R.id.spinnerDayOfTheWeek)
         val textViewForecast = findViewById<TextView>(R.id.textViewForecast)
+        val buttonReturn = findViewById<Button>(R.id.buttonReturn)
 
+            buttonReturn.setOnClickListener() {
+
+                val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)
+
+            }
+
+        spinnerDayfTheWeek.setOnClickListener() {
+
+
+
+        }
     }
 }
