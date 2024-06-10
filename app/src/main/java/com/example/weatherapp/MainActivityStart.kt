@@ -45,6 +45,6 @@ class MainActivityStart : AppCompatActivity() {
         Log.v("${spinnerDayfTheWeek}", "Spinner to display the days of the week")
         val textViewForecast = findViewById<TextView>(R.id.textViewForecast)
         Log.v("${textViewForecast}", "Text view to display the temparatures ")
-
+        
     }
 }
